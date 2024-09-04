@@ -106,6 +106,7 @@ git push -u origin main
 이후에는 git push
 
 -----------------------------------------
+0904
 
 clone 하기
 
@@ -149,9 +150,13 @@ git branch -d xxx
 
 git branch xxx 커밋번호
 
+git log --graph 
 
+git log --graph --all
 
+git log --graph --oneline
 
+git log --graph --oneline --all
 
 
 -----------------------------------
