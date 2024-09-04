@@ -1,0 +1,110 @@
+pwd 현재 위치 확인
+
+ls 경로 기준 목록
+
+ls -a1 , ls -al
+
+cd /c
+
+mkdir project_5
+
+cd project_5/c
+
+git
+
+clear
+
+git --version 
+
+git --v
+
+mkdir
+
+cd ../
+
+git config --global init.defaultBranch main >> master가 메인일 때 
+
+
+1. git으로 관리할 경로까지 이동
+
+2. 초기화 >> git init   (깃으로 관리, .git 폴더 생성, 숨겨져 있음)
+
+3. git 상태확인  >> git status
+
+4. git 으로 관리하는 파일로 추가 >> git add .
+
+5. 해당 시점을 저장>> git commit -m "This is the commit"
+
+6. commit 이전에 계정정보 등록
+
+
+# 전역으로 설정(해당 컴퓨터에 전체에 적용)
+git config --global user.name <github-name>
+git config --global user.email <github 등록 email>
+
+# Repository마다 다른 사용자 계정 사용
+git config --local user.name <github-name>
+git config --local user.email <github 등록 email>
+
+# 기본
+git config user.name  imhyeonuk
+git config user.email imhyeonuk@gmail.com
+
+7. commit 정보 확인
+ git log
+
+9. 과제
+project_5/test1를 생성
+git으로 관리
+파일 생성은 알아서... 최소 커밋의 수는 5번 이상
+
+
+
+로컬 컴퓨터와 github 사이트 연결 https://choiiis.github.io/git/how-to-remote-project/
+
+
+10.  remote 정보 확인
+
+git remote
+git remote -v
+
+11. remote 추가
+
+git remote add 리모트이름 github리파지토리주소
+
+= git remote add origin https://github.com/imhyeonuk/project5_work1.git
+
+
+12 . remote삭제
+git remote rm 리모트이름
+=    git remote rm origin
+
+13. git remote , git remote -v 
+리모트 정보 확인
+
+15. git push -u origin main
+
+
+((((((((((
+>> 내거 확인
+
+1. github에 파일을 만든다.
+
+2. add . , commit , push 
+
+>> 에러 >>
+
+git remote add origin https://github.com/imhyeonuk/project5_work1.git
+
+>> git push -u origin main)))))))))))))
+
+
+16. githun 데이터 넣기
+
+git push -u origin main
+
+이후에는 git push
+
+-----------------------------------------
+
+clone 하기
